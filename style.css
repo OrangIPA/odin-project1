@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.top{
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-gray {
+    background-color: #1f2947;
+}
+
+.empty {
+    flex: 7;
+}
+
+.header-link {
+    color: white;
+    flex: 1;
+    font-family: 'montserrat';
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#header {
+    display: flex;
+    width: 70%;
+    justify-content: end;
+}
+
+#logo {
+    font-family: 'montserrat';
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    flex:auto;
+}
