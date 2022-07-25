@@ -16,6 +16,7 @@ a:link, a:visited,  a:hover, a:active
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .dark-gray {
@@ -39,6 +40,8 @@ a:link, a:visited,  a:hover, a:active
     display: flex;
     width: 70%;
     justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -47,4 +50,33 @@ a:link, a:visited,  a:hover, a:active
     color: white;
     font-weight: 600;
     flex:auto;
+}
+
+#content-top {
+    display: flex;
+    width: 70%;
+    /* height: 300px; */
+    display: flex;
+}
+
+#content-top div{
+    /* background-color: green; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-top .content div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    width: 30%;
+    border-radius:6px;
+    height: 25px;
+    background-color:#3882f6;
+    border-width: 0px;
+    color: white;
 }
