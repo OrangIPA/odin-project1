@@ -38,7 +38,7 @@ a:link, a:visited,  a:hover, a:active
 
 #header {
     display: flex;
-    width: 70%;
+    width: 65%;
     justify-content: end;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -54,7 +54,7 @@ a:link, a:visited,  a:hover, a:active
 
 #content-top {
     display: flex;
-    width: 70%;
+    width: 65%;
     /* height: 300px; */
     display: flex;
 }
@@ -73,7 +73,7 @@ a:link, a:visited,  a:hover, a:active
 }
 
 #signup {
-    width: 30%;
+    width: 100px;
     border-radius:6px;
     height: 25px;
     background-color:#3882f6;
